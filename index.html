@@ -1,23 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Songster</title>
     <link href="APIProject.css" rel="stylesheet">
 </head>
+
 <body>
     <h1>Music Search</h1>
     <div class="wrapper">
-    <div class="controls">
-        <!--Search Form-->
-        <form>
-            <p>
-                <label for="search">Enter a Single search term (required): </label>
-                <input type="text" id="search" class="search" required>
-            </p>
-        </form>
+        <div class="controls">
+            <!--Search Form-->
+            <form>
+                <p>
+                    <label for="search">Artist: </label>
+                    <input type="text" id="search" class="search">
+                </p>
+                <p>
+                    <button class="submit">Submit search</button>
+                </p>
+            </form>
+        </div>
+        <!--Results Section-->
+        <div class="results">
+            <!--Results From Request-->
+            <nav>
+                <button class="prev">Previous 5</button>
+                <button class="next">Next 5</button>
+            </nav>
+            <section>
+
+                <body>
+
+            </section>
+        </div>
     </div>
-    </div>
-    
+    <script src="APIProject.js"></script>
 </body>
+
 </html>
