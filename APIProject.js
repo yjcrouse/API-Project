@@ -28,8 +28,11 @@ function fetchResults(i) {
     
     function displayResults(json) {
 
-    for (i = 0; i < json.length; i++) {
+    for (let i = 0; i < json.length; i++) {
         console.log(json[i].id);
+        
+        
+
     }
     }
 
